@@ -75,7 +75,7 @@ static const PinLookup pinTable[] = {
 { 3, PORTA,  9, 0, &REG_TCC0_CCB1, PORT_PMUX_PMUXO_E},
 { 4, PORTA,  8, 0, &REG_TCC0_CCB0, PORT_PMUX_PMUXE_E},
 {-1, 0, 0, 0, 0, 0},
-{-1, 0, 0, 0, 0, 0},
+{ 6, PORTA, 20, 0, &REG_TCC0_CCB2, PORT_PMUX_PMUXE_F},
 {-1, 0, 0, 0, 0, 0},
 { 8, PORTA,  6, 1, &REG_TCC1_CCB0, PORT_PMUX_PMUXE_E},
 { 9, PORTA,  7, 1, &REG_TCC1_CCB1, PORT_PMUX_PMUXO_E},
